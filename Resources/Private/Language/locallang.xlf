@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:catalogue_ftcbtclc/Resources/Private/Language/locallang" date="2021-05-27T15:54:58Z" product-name="catalogue_ftcbtclc">
+		<header/>
+		<body>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_product" resname="tx_catalogueftcbtclc_domain_model_product">
+				<source>Product</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_product.title" resname="tx_catalogueftcbtclc_domain_model_product.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_product.description" resname="tx_catalogueftcbtclc_domain_model_product.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_product.price" resname="tx_catalogueftcbtclc_domain_model_product.price">
+				<source>Price</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_product.images" resname="tx_catalogueftcbtclc_domain_model_product.images">
+				<source>Images</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_product.videos" resname="tx_catalogueftcbtclc_domain_model_product.videos">
+				<source>Videos</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_product.availability_date" resname="tx_catalogueftcbtclc_domain_model_product.availability_date">
+				<source>Availability Date</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_product.categories" resname="tx_catalogueftcbtclc_domain_model_product.categories">
+				<source>Categories</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_product.brand" resname="tx_catalogueftcbtclc_domain_model_product.brand">
+				<source>Brand</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_product.properties" resname="tx_catalogueftcbtclc_domain_model_product.properties">
+				<source>Properties</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_product.reviews" resname="tx_catalogueftcbtclc_domain_model_product.reviews">
+				<source>Reviews</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_category" resname="tx_catalogueftcbtclc_domain_model_category">
+				<source>Category</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_category.title" resname="tx_catalogueftcbtclc_domain_model_category.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_category.description" resname="tx_catalogueftcbtclc_domain_model_category.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_category.children" resname="tx_catalogueftcbtclc_domain_model_category.children">
+				<source>Children</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_brand" resname="tx_catalogueftcbtclc_domain_model_brand">
+				<source>Brand</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_brand.tx_catalogueftcbtclc_label" resname="tx_catalogueftcbtclc_domain_model_brand.tx_catalogueftcbtclc_label">
+				<source>Label</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_brand.description" resname="tx_catalogueftcbtclc_domain_model_brand.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_brand.logo" resname="tx_catalogueftcbtclc_domain_model_brand.logo">
+				<source>Logo</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_feature" resname="tx_catalogueftcbtclc_domain_model_feature">
+				<source>Feature</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_feature.name" resname="tx_catalogueftcbtclc_domain_model_feature.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_feature.unit" resname="tx_catalogueftcbtclc_domain_model_feature.unit">
+				<source>Unit</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_property" resname="tx_catalogueftcbtclc_domain_model_property">
+				<source>Property</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_property.value" resname="tx_catalogueftcbtclc_domain_model_property.value">
+				<source>Value</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_property.feature" resname="tx_catalogueftcbtclc_domain_model_property.feature">
+				<source>Feature</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_review" resname="tx_catalogueftcbtclc_domain_model_review">
+				<source>Review</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_review.reviewer" resname="tx_catalogueftcbtclc_domain_model_review.reviewer">
+				<source>Reviewer</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_review.comment" resname="tx_catalogueftcbtclc_domain_model_review.comment">
+				<source>Comment</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_review.rating" resname="tx_catalogueftcbtclc_domain_model_review.rating">
+				<source>Rating</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogueftcbtclc_domain_model_review.review_date" resname="tx_catalogueftcbtclc_domain_model_review.review_date">
+				<source>Review Date</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

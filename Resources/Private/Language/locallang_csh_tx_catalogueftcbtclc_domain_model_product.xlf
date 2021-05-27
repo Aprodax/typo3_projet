@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:catalogue_ftcbtclc/Resources/Private/Language/locallang_csh" date="2021-05-27T15:54:58Z" product-name="catalogue_ftcbtclc">
+		<header/>
+		<body>
+			<trans-unit id="title.description" resname="title.description">
+				<source>Titre</source>
+			</trans-unit>
+			<trans-unit id="description.description" resname="description.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="price.description" resname="price.description">
+				<source>Prix</source>
+			</trans-unit>
+			<trans-unit id="images.description" resname="images.description">
+				<source>Images</source>
+			</trans-unit>
+			<trans-unit id="videos.description" resname="videos.description">
+				<source>Vidéos</source>
+			</trans-unit>
+			<trans-unit id="availability_date.description" resname="availability_date.description">
+				<source>Date de sortie</source>
+			</trans-unit>
+			<trans-unit id="categories.description" resname="categories.description">
+				<source>Catégories</source>
+			</trans-unit>
+			<trans-unit id="brand.description" resname="brand.description">
+				<source>Marque</source>
+			</trans-unit>
+			<trans-unit id="properties.description" resname="properties.description">
+				<source>Propriétés</source>
+			</trans-unit>
+			<trans-unit id="reviews.description" resname="reviews.description">
+				<source>Avis</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,39 @@
+{
+    "name": "aprodax/catalogue-ftcbtclc",
+    "type": "typo3-cms-extension",
+    "description": "Un catalogue de produits",
+    "authors": [
+        {
+            "name": "Theo Chauvreau",
+            "role": "Developer"
+        },
+        {
+            "name": "Florian Tourinel",
+            "role": "Developer"
+        },
+        {
+            "name": "Corentyn Boutant",
+            "role": "Developer"
+        },
+        {
+            "name": "Loic Coissard",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aprodax\\CatalogueFtcbtclc\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aprodax\\CatalogueFtcbtclc\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "typo3-ter/catalogue-ftcbtclc": "self.version"
+    }
+}

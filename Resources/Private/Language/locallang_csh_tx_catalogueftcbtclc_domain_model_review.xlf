@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:catalogue_ftcbtclc/Resources/Private/Language/locallang_csh" date="2021-05-27T15:54:58Z" product-name="catalogue_ftcbtclc">
+		<header/>
+		<body>
+			<trans-unit id="reviewer.description" resname="reviewer.description">
+				<source>Auteur de l&#039;avis</source>
+			</trans-unit>
+			<trans-unit id="comment.description" resname="comment.description">
+				<source>Commentaire</source>
+			</trans-unit>
+			<trans-unit id="rating.description" resname="rating.description">
+				<source>Note</source>
+			</trans-unit>
+			<trans-unit id="review_date.description" resname="review_date.description">
+				<source>Date du commentaire</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:catalogue_ftcbtclc/Resources/Private/Language/locallang_csh" date="2021-05-27T15:54:58Z" product-name="catalogue_ftcbtclc">
+		<header/>
+		<body>
+			<trans-unit id="title.description" resname="title.description">
+				<source>Titre</source>
+			</trans-unit>
+			<trans-unit id="description.description" resname="description.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="children.description" resname="children.description">
+				<source>Sous-catégories</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
