@@ -25,7 +25,6 @@ class Brand extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
      * Libellé
      * 
      * @var string
-     * @TYPO3\CMS\Extbase\Annotation\Validate("NotEmpty")
      */
     protected $label = '';
 

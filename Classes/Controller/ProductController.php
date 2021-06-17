@@ -41,10 +41,13 @@ class ProductController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControll
      * 
      * @return void
      */
-    public function listAction()
+    public function listAction(\Aprodax\CatalogueFtcbtclc\Domain\Model\Category $category = null, \Aprodax\CatalogueFtcbtclc\Domain\Model\Brand $brand = null)
     {
         $products = $this->productRepository->findAll();
-        $this->view->assign('products', $products);
+        $this->view->assignMultiple([
+            'products' => $products,
+            'categories' => $category
+        ]);
     }
 
     /**
@@ -63,7 +66,7 @@ class ProductController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControll
      * 
      * @return void
      */
-    public function searchAction()
+    public function searchAction(\Aprodax\CatalogueFtcbtclc\Domain\Dto\Query\ProductSearch $query)
     {
     }
 

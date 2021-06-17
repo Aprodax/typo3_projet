@@ -13,6 +13,36 @@ in /Configuration/ExtensionBuilder/settings.yaml:
 Otherwise your changes will be overwritten the next time you save the extension in the extension builder
 
 <f:section name="content">
+    <f:form action="search" enctype="multipart/form-data" name="query" object="{query}">
+        <label for="keywords">
+            Mots-clés
+        </label>
+        <f:form.textfield property="text" />
+    </f:form>
+
+    <div class="row">
+        <f:for each="{products}" as="product">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <f:if condition="{product.images -> f:count()}">
+                    <f:image image="{product.images.0}" treatIdAsReference="1" alt="..." width="300" height="100c"></f:image>
+                </f:if>
+                <div class="caption">
+                    <h3><f:link.action action="show" arguments="{product : product}">{product.title}</f:link.action></h3>
+                    {product.description -> f:format.html()}
+                    <p>{product.price} €</p>
+                    <p>
+                        <f:if condition="{product.categories}">
+                            <f:link.action action="list" arguments="{category : product.categories.0}">Button</f:link.action>
+                        </f:if>
+                        <a href="#" class="btn btn-default" role="button">Button</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        </f:for>
+    </div>
+
     <h1>Listing for Product</h1>
 
     <f:flashMessages />
