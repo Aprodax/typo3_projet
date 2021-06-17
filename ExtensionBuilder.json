@@ -439,7 +439,7 @@
                 "actionGroup": {
                     "_default0_list": false,
                     "_default1_show": false,
-                    "_default2_new_create": false,
+                    "_default2_new_create": true,
                     "_default3_edit_update": false,
                     "_default4_delete": false,
                     "customActions": []
@@ -557,7 +557,38 @@
                 "role": "Developer"
             }
         ],
-        "plugins": [],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "Product => list,show,search,review\nReview => new,create",
+                    "noncacheableActions": "Product => search\nReview => create",
+                    "switchableActions": "Catalogue des produits\n Product->list; Product->show; Product->search; Product->review; Review->new; Review->create;"
+                },
+                "description": "Catalogue de produits",
+                "key": "pi1",
+                "name": "Catalogue"
+            },
+            {
+                "actions": {
+                    "controllerActionCombinations": "Category=>list",
+                    "noncacheableActions": "",
+                    "switchableActions": "Categories\nCategory->list;"
+                },
+                "description": "Cat\u00e9gories",
+                "key": "pi2",
+                "name": "Cat\u00e9gories"
+            },
+            {
+                "actions": {
+                    "controllerActionCombinations": "Product => focus",
+                    "noncacheableActions": "",
+                    "switchableActions": "Mise en valeur\nProduct->focus;"
+                },
+                "description": "Remont\u00e9es de produits par date d'ajout, note ou manuel",
+                "key": "pi3",
+                "name": "Mise en valeur de produits"
+            }
+        ],
         "vendorName": "Aprodax"
     },
     "wires": [
@@ -636,7 +667,7 @@
     ],
     "storagePath": "D:\/IUT\/cms\/web\/typo3conf\/ext\/",
     "log": {
-        "last_modified": "2021-05-27 03:54",
+        "last_modified": "2021-06-17 07:06",
         "extension_builder_version": "9.10.3",
         "be_user": " (1)"
     }

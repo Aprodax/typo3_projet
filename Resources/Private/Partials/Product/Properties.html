@@ -1,0 +1,56 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<table class="tx-catalogue-ftcbtclc" >
+	<tr>
+		<td>
+			<f:translate key="tx_catalogueftcbtclc_domain_model_product.title" />
+		</td>
+		<td>
+		{product.title}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_catalogueftcbtclc_domain_model_product.description" />
+		</td>
+		<td>
+		{product.description}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_catalogueftcbtclc_domain_model_product.price" />
+		</td>
+		<td>
+		{product.price}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_catalogueftcbtclc_domain_model_product.images" />
+		</td>
+		<td>
+				<f:for each="{product.images}" as="image" >
+					<f:image src="{image.originalResource.publicUrl}" width="200"/>
+				</f:for>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_catalogueftcbtclc_domain_model_product.videos" />
+		</td>
+		<td>
+				<a href="{product.videos.originalResource.publicUrl}">
+					{product.videos.originalResource.name}
+				</a>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_catalogueftcbtclc_domain_model_product.availability_date" />
+		</td>
+		<td>
+		{product.availabilityDate -> f:format.date()}
+		</td>
+	</tr>
+</table>
+</html>

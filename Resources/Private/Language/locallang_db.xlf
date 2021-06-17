@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:catalogue_ftcbtclc/Resources/Private/Language/locallang_db" date="2021-05-27T15:54:58Z" product-name="catalogue_ftcbtclc">
+	<file source-language="en" datatype="plaintext" original="EXT:catalogue_ftcbtclc/Resources/Private/Language/locallang_db" date="2021-06-17T07:05:59Z" product-name="catalogue_ftcbtclc">
 		<header/>
 		<body>
 			<trans-unit id="tx_catalogueftcbtclc_domain_model_product" resname="tx_catalogueftcbtclc_domain_model_product">
@@ -92,6 +92,24 @@
 			</trans-unit>
 			<trans-unit id="tx_catalogueftcbtclc_domain_model_review.review_date" resname="tx_catalogueftcbtclc_domain_model_review.review_date">
 				<source>Review Date</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogue_ftcbtclc_pi1.name" resname="tx_catalogue_ftcbtclc_pi1.name">
+				<source>Catalogue</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogue_ftcbtclc_pi1.description" resname="tx_catalogue_ftcbtclc_pi1.description">
+				<source>Catalogue de produits</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogue_ftcbtclc_pi2.name" resname="tx_catalogue_ftcbtclc_pi2.name">
+				<source>Catégories</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogue_ftcbtclc_pi2.description" resname="tx_catalogue_ftcbtclc_pi2.description">
+				<source>Catégories</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogue_ftcbtclc_pi3.name" resname="tx_catalogue_ftcbtclc_pi3.name">
+				<source>Mise en valeur de produits</source>
+			</trans-unit>
+			<trans-unit id="tx_catalogue_ftcbtclc_pi3.description" resname="tx_catalogue_ftcbtclc_pi3.description">
+				<source>Remontées de produits par date d&#039;ajout, note ou manuel</source>
 			</trans-unit>
 		</body>
 	</file>
