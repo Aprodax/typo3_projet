@@ -17,7 +17,22 @@ Otherwise your changes will be overwritten the next time you save the extension 
         <label for="keywords">
             Mots-clés
         </label>
-        <f:form.textfield property="text" />
+        <f:form.textfield id="keywords" property="text" />
+
+        <label for="minprice">
+            Prix minimum
+        </label>
+        <f:form.textfield type="number" id="minprice" property="minPrice" />
+        
+        <label for="maxprice">
+            Prix maximum
+        </label>
+        <f:form.textfield type="number" id="maxprice" property="maxPrice" />
+        
+        <label for="category">
+            Marque
+        </label>
+        <f:form.textfield id="category" property="category"/>
     </f:form>
 
     <div class="row">

@@ -61,6 +61,11 @@ class ProductController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControll
         $this->view->assign('product', $product);
     }
 
+    public function deleteAction(\Aprodax\CatalogueFtcbtclc\Domain\Model\Product $product) 
+    {
+        $this->productRepository->delete($product);
+    }
+
     /**
      * action search
      * 
@@ -68,6 +73,11 @@ class ProductController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControll
      */
     public function searchAction(\Aprodax\CatalogueFtcbtclc\Domain\Dto\Query\ProductSearch $query)
     {
+        $products = $this->productRepository->search($query);
+        $this->view->assignMultiple([
+            'products' => $products,
+            'categories' => $category
+        ]);
     }
 
     /**

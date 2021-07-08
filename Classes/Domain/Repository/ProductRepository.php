@@ -20,4 +20,20 @@ namespace Aprodax\CatalogueFtcbtclc\Domain\Repository;
  */
 class ProductRepository extends \TYPO3\CMS\Extbase\Persistence\Repository
 {
+    public function search(\Aprodax\CatalogueFtcbtclc\Domain\Dto\Query\ProductSearch $search) {
+        $query = $this->createQuery();
+        $constraints = [];
+
+        if(is_string($search->getText()) && strlen($search->getText()) > 0 && $search->getText() !== null)
+            $constraints[] = $query->logicalOr([ $query->like('description', '%' . $search->getText() . '%'), $query->like('title', '%' . $search->getText() . '%') ]);
+        if($search->getCategory() !== null) 
+            $constraints[] = $query->contains('categories', $search->getCategory());
+        if($search->getMinPrice() !== null) 
+            $constraints[] = $query->greaterThanOrEqual('price', $search->getMinPrice());
+        if($search->getMaxPrice() !== null) 
+            $constraints[] = $query->lessThanOrEqual('price', $search->getMaxPrice());
+
+        $query->matching($query->logicalAnd($constraints));
+        return $query->execute();
+    }
 }
